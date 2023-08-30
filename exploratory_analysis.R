@@ -5,7 +5,7 @@
 cat("Resumen estadístico de las variables numéricas:\n")
 summary(df)
 
-#¿Cuántos pokemones son lengarios?
+#¿Cuántos pokemones son lengendarios?
 # Filtrar el dataframe para obtener solo los pokémon legendarios
 pokemones_legendarios <- df[df$Legendary == "True", ]
 
